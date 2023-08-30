@@ -1,0 +1,88 @@
+.user-advice-main {
+  margin: 200px 0px;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  h1 {
+    color: #cee3e9;
+  }
+}
+
+.advice-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+
+  form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 15px;
+
+    label {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      font-size: 20px;
+
+      input {
+        border-radius: 5px;
+        width: 300px;
+        padding: 8px 10px;
+        font-size: 15px;
+        outline: none;
+        border: none;
+      }
+    }
+  }
+  button {
+    padding: 5px 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    background: #52ffa8;
+    cursor: pointer;
+    transition: 0.5s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.advices {
+  display: flex;
+  gap: 20px;
+
+  .advice {
+    background-color: #323a49;
+    border-radius: 10px;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+    .quote {
+      color: #cee3e9;
+      max-width: 300px;
+      width: 100%;
+      font-size: 22px;
+    }
+
+    .author {
+      color: #52ffa8;
+      font-size: 14px;
+      text-align: end;
+    }
+  }
+}

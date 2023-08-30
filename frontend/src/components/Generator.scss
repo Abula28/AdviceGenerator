@@ -1,0 +1,61 @@
+.main-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 223px;
+}
+
+.generator {
+  background: #323a49;
+  border-radius: 15px;
+  .generator-content {
+    display: flex;
+    flex-direction: column;
+    padding: 47px 48px 72px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+
+    .advice-number {
+      color: #52ffa8;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      letter-spacing: 3.5px;
+      text-transform: uppercase;
+    }
+
+    .advice {
+      color: #cee3e9;
+      text-align: center;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      letter-spacing: -0.28px;
+      max-width: 437px;
+      width: 100%;
+    }
+
+    button {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      bottom: -30px;
+      width: 64px;
+      height: 64px;
+      background: #52ffa8;
+      border-radius: 50%;
+      border: none;
+      cursor: pointer;
+      transition: all 0.5s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
